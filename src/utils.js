@@ -27,3 +27,9 @@ export const createTask = (taskData) => {
         ...taskData
     };
 };
+
+export const tasks = [
+    { id: 1, title: "Learn Node.js", completed: true, dueDate: "2026-07-29" },
+    { id: 2, title: "Build Express API", completed: false, dueDate: "2026-08-04" },
+    { id: 3, title: "Complete GT5 Assignment", completed: false, dueDate: "2026-08-05" }
+];

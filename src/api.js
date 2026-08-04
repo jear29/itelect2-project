@@ -22,8 +22,11 @@ export function fetchSampleUsersPromise() {
             }
             return res.json();
         })
+        .then((users) => {
+            return users.map(({ id, name, email }) => ({ id, name, email }));
+        })
         .catch(err => {
             console.error("Error fetching users:", err);
             return [];
-        })
+        });
 }

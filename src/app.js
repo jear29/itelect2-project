@@ -10,6 +10,13 @@ console.log(validateTask({ title: 'Title', dueDate: new Date("2026-07-22") }));
 
 console.log(mergeTaskUpdate({ title: 'Title' }, { title: 'New Title' }));
 
+// calling the fetchSampleUsersPromise example
+const usersPromise = await fetchSampleUsersPromise();
+console.log(usersPromise);
+
+console.log(); 
+
+// call fetchSampleUsers and createTask
 async function main() {
     try {
         const users = await fetchSampleUsers();
