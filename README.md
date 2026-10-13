@@ -26,3 +26,7 @@ Hi, I am John Ray A. Ferriol a 3rd-year BSIT student in De La Salle Lipa.
 
 #### User table
 ![alt text](screenshots/pgadmintable_user.png)
+
+---
+#### Live URL
+https://itelect2-project-rqlr.onrender.com
